@@ -1,0 +1,27 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544170126438.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "494486193",
+    "id" : "305E3B20",
+    "lastKnownWriteTime" : 1544176393,
+    "last_content_update" : 1544176393790,
+    "path" : "~/markdown/my_presentation.Rmd",
+    "project_path" : "my_presentation.Rmd",
+    "properties" : {
+        "cursorPosition" : "58,24",
+        "last_setup_crc32" : "E9D272DDbb338d19",
+        "scrollLine" : "41",
+        "tempName" : "Untitled2"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

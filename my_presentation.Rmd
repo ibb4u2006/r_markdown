@@ -1,0 +1,63 @@
+---
+title: "Example of RMarkdown"
+author: "Ibrahim Bello"
+date: "7 12 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown
+## Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see [This Link](http://rmarkdown.rstudio.com).
+
+When you click the _Knit_ button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Including Equations
+You can also add equations, such as
+
+* $f(x) = e^x$
+* $f^′(x)=x^2(a_1+a_2)$
+* $A=πρ^2$
+
+To find out how to write greek letters or use complex mathematical formulations check [this](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
+
+## R Scripting
+
+```{r scripting, echo=FALSE}
+# install.packages("data.table")
+library(data.table)
+
+  
+chunk <- fread("data/data_PRT.csv")
+str(chunk)
+```
+
+
+## Plot histogram
+```{r histogram, echo=FALSE}
+library(ggplot2)
+tidy <- melt(chunk)
+ggplot(data = tidy, aes(value)) + 
+  geom_histogram() +
+  facet_grid( ID ~ variable, scales = 'free_y')
+```
+

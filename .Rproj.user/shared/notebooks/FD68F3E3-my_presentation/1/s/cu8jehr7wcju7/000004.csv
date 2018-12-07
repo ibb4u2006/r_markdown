@@ -1,0 +1,6 @@
+"0","ggplot(data = tidy, aes(x = RM, y = P)) + 
+  geom_histogram() +
+  facet_grid( ID ~ DTM, scales = 'free_y')
+"
+"2","Error in FUN(X[[i]], ...) : object 'RM' not found
+"

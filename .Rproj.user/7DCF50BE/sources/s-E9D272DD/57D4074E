@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544175874886.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "57D4074E",
+    "lastKnownWriteTime" : 2314885530818453536,
+    "last_content_update" : 1544175874886,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "3B2B1345",
+        "caption" : "tidy",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=tidy&cache_key=3B2B1345",
+        "displayedObservations" : 20700,
+        "environment" : "",
+        "expression" : "tidy",
+        "object" : "tidy",
+        "preview" : 0,
+        "totalObservations" : 20700,
+        "variables" : 4
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
